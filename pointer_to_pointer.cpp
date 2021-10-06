@@ -20,6 +20,10 @@ int main(){
     cout<<"the value at pointer q : "<<*q<<endl;
     cout<<"the value at pointer p (accessing through pointer q) : "<<**q<<endl;
 
+    **q=*p+2;  // incrementing the value of x through q pointer 
+
+    cout<<"incremented value of x through pointer q : "<<**q<<endl;
+
     cout<<"---------------------------------------------------------"<<endl;
 
     
